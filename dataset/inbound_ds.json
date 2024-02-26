@@ -5,20 +5,11 @@
 			"referenceName": "adlssgen2ls",
 			"type": "LinkedServiceReference"
 		},
-		"parameters": {
-			"filenm": {
-				"type": "string"
-			}
-		},
 		"annotations": [],
 		"type": "Binary",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": {
-					"value": "@dataset().filenm",
-					"type": "Expression"
-				},
 				"folderPath": "inbound",
 				"fileSystem": "vijay"
 			}
