@@ -1,0 +1,9 @@
+{
+	"name": "vijayk",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d43aa86e-1e8a-4771-b675-17bb063e5751",
+		"tenantId": "f6a8402c-36b6-4d41-9257-e32e3f9e9833"
+	}
+}
