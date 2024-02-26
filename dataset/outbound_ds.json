@@ -1,0 +1,18 @@
+{
+	"name": "outbound_ds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adlssgen2ls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "outbound",
+				"fileSystem": "vijay"
+			}
+		}
+	}
+}
