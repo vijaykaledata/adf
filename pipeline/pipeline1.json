@@ -62,7 +62,7 @@
 							"typeProperties": {
 								"variableName": "filename",
 								"value": {
-									"value": "@item().name",
+									"value": "@activity('Get Metadata1').output.childItems.name",
 									"type": "Expression"
 								}
 							}
@@ -173,12 +173,10 @@
 				}
 			}
 		],
-		"parameters": {
-			"filename": {
-				"type": "string"
-			}
-		},
 		"variables": {
+			"filename": {
+				"type": "Array"
+			},
 			"filedate": {
 				"type": "String"
 			}
