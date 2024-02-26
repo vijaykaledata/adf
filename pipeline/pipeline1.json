@@ -173,10 +173,12 @@
 				}
 			}
 		],
-		"variables": {
+		"parameters": {
 			"filename": {
-				"type": "Array"
-			},
+				"type": "string"
+			}
+		},
+		"variables": {
 			"filedate": {
 				"type": "String"
 			}
