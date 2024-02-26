@@ -132,13 +132,7 @@
 										"inputs": [
 											{
 												"referenceName": "inbound_ds",
-												"type": "DatasetReference",
-												"parameters": {
-													"fname": {
-														"value": "@variables('filename')",
-														"type": "Expression"
-													}
-												}
+												"type": "DatasetReference"
 											}
 										],
 										"outputs": [
